@@ -14,43 +14,43 @@ Features
 Setup
 -----
 
- 1\. Clone the Repository
+1. **Clone the Repository**
 
-```bash
-git clone https://github.com/omerbustun/expensior.git
-```
-```bash
-cd expensior
-```
+    ```bash
+    git clone https://github.com/omerbustun/expensior.git
+    ```
+    ```bash
+    cd expensior
+    ```
 
- 2\. Set Up a Virtual Environment
+2. **Set Up a Virtual Environment**
 
-```bash
-python -m venv venv
-```
-```bash
-source venv/bin/activate  # On Windows, use: .\venv\Scripts\activate
-```
+    ```bash
+    python -m venv venv
+    ```
+    ```bash
+    source venv/bin/activate  # On Windows, use: .\venv\Scripts\activate
+    ```
 
- 3\. Install Dependencies
+3. **Install Dependencies**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
- 4\. Apply Migrations
-
-
-```bash
-python manage.py migrate
-```
-
- 5\. Run the Development Server
+4. **Apply Migrations**
 
 
-```bash
-python manage.py runserver
-```
+    ```bash
+    python manage.py migrate
+    ```
+
+5. **Run the Development Server**
+
+
+    ```bash
+    python manage.py runserver
+    ```
 
 Visit `http://localhost:8000/` in your browser to access the application.
 
